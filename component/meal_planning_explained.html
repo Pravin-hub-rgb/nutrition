@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planning Explained</title>
+    <link rel="icon" href="images/clock.svg" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div onclick="openNav()" class="dmenu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="close closebtn" onclick="closeNav()">&times;</a>
+        <div class="group">
+            <a class="home-icon" href="../index.html"><img src="../images/home.svg" alt="home-icon"></a>
+            <a href="#dnp">Diet & Nutrition Principles</a>
+            <a href="#calorie">Calories Explained</a>
+            <a href="#protein">- Protein Explained</a>
+            <a href="#fat">- Fat Explained</a>
+            <a href="#carbs">- Carbohydrate Explained</a>
+            <a href="#mealtiming">Meal Timing</a>
+            <a href="#proteint">- Protein Timing</a>
+            <a href="#carbt">- Carbs Timing</a>
+            <a href="#fatt">- Fat Timing</a>
+            <a href="#premeal">- Pre-workout Meal</a>
+            <a href="#postmeal">- Post-workout Meal</a>
+            <a href="#foodcomp">Food Composition</a>
+            <a href="#supplements">Supplements Explained</a>
+        </div>
+    </div>
+    <section class="back">
+        <div id="left">
+            <div class="group">
+                <a class="home-icon" href="../index.html"><img src="../images/home.svg" alt="home-icon"></a>
+                <a href="#dnp">Diet & Nutrition Principles</a>
+                <a href="#calorie">Calories Explained</a>
+                <a href="#protein">- Protein Explained</a>
+                <a href="#fat">- Fat Explained</a>
+                <a href="#carbs">- Carbohydrate Explained</a>
+                <a href="#mealtiming">Meal Timing</a>
+                <a href="#proteint">- Protein Timing</a>
+                <a href="#carbt">- Carbs Timing</a>
+                <a href="#fatt">- Fat Timing</a>
+                <a href="#premeal">- Pre-workout Meal</a>
+                <a href="#postmeal">- Post-workout Meal</a>
+                <a href="#foodcomp">Food Composition</a>
+                <a href="#supplements">Supplements Explained</a>
+            </div>
+        </div>
+        <div id="right">
+            <div class="content-box">
+                <div class="content-heading">
+                    <h1>Meal Planning Explained</h1>
+                    <img src="images/food.svg" alt="">
+                </div>
+                <div id="dnp" class="inside-content">
+                    <div class="content-heading">
+                        <h2>Diet & Nurtition Principles</h2>
+                        <img src="images/diet.svg" alt="">
+                    </div>
+                    <div class="dark">
+                        <h3>1- Calorie Balance &rarr; How much do you eat</h3>
+                        <p>Calories are every thing, they are the most aspects of our diets periodt.</p>
+
+                    </div>
+                    <div class="dark">
+                        <h3>2- Macronutrient amounts &rarr; What you eat (Protein, Carbs and fats)</h3>
+                        <p>Eating the right amount of protein, carbs & fat makes an important difference in our body composition. Especially if you want to build muscles or lose fat</p>
+                    </div>
+                    <div class="dark">
+                        <h3>3- Nutrient timing &rarr; when you eat</h3>
+                    </div>
+                    <div class="dark">
+                        <h3>4- Food composition</h3>
+                        <p>Good for your overal health</p>
+                    </div>
+                    <div class="dark">
+                        <h3>5- Supplements</h3>
+                    </div>
+                </div>
+                <div id="calorie" class="inside-content">
+                    <div class="content-heading">
+                        <h2>Calories Explained</h2>
+                        <img src="images/burn.svg" alt="">
+                    </div>
+                    <p>
+                        From a scientific standpoint whether you gain weight or lose weight is determined by first law of <b>thermodynamics</b> which states that,
+                        <b>The energy cannot be created or be destroyed, it can only be transformed from one type to another.</b>
+                    </p>
+                    <p>Your body weight does depend only on the difference between the amount of calorie balance.</p>
+                    <div class="dark">
+                        <h3>Q&rarr; What is a Calorie?</h3>
+                        <p>
+                            A&rarr; Energy needed to raise the temprature of 1 litre of water by 1 degree celsius. <br> That means a calorie is a form of energy measurements
+                            <br>
+                            <b>A calorie = form of energy measurement.</b>
+                        </p>
+                    </div>
+                    <p>When you eat your food you're consuming the energy that is stored within the food, then this energy is used to produce movements and keeps your organs alive, the access energy can be stored for later use (as glycogen or fat) some energy
+                        can be stored in the muscles and liver as glycogen but these stores fill up pretty quick so, your body will then store any additional calories in the form of body fat.
+                    </p>
+                    <div class="dark">
+                        <div class="content-heading">
+                            <h2>Calorie Balance</h2>
+                            <img src="images/calories.svg" alt="">
+                        </div>
+                        <p>3 different states of calorie balance <br> you can only be in one state at a time</p>
+                        <div class="light">
+                            <h3>1- Negative Calorie Balance</h3>
+                            <p>This occurs when someone burns more calories than he/she consumes. Negative calorie balance always reuslts to weight loss.</p>
+                        </div>
+                        <div class="light">
+                            <h3>2- Neutral Calorie Balance</h3>
+                            <p>Here a person's intake is the same as the expenditure of activities and body processes. Here the body weight remains the same.</p>
+                        </div>
+                        <div class="light">
+                            <h3>3- Positive Calorie Balance</h3>
+                            <p>More energy is consumed through fuel and being burned to produce body processes or movement. In this case calories are stored as either glycogen in the liver or as fat.</p>
+                        </div>
+                        <p>Your calorie balance will determine how much muscles you can gain and how much fat you can loose over any period of time because calories are literally the building blocks of body tissue. <br> If you want to build muscles you not
+                            only need to train but you also need to provide your body with necessary raw materials to form muscles cells. On the other ahnd if you want to burn fat you have to make sure that not enough calories are shoveled into fat cells
+                            to keep them to same size</p>
+                    </div>
+                </div>
+                <div id="macro" class="inside-content">
+                    <div class="content-heading">
+                        <h2>Macronutrients Explained</h2>
+                        <img src="images/nutrients.svg" alt="">
+                    </div>
+                    <p><b>Macronutrients</b> are the three main things the body need to survive.</p>
+                    <p>
+                        Your body needs each macronutrient in relatively large quantities to function properly. <br> The three <b>Macronutrients</b> are <b>Protein, Carbohydrates and Dietary Fats</b>
+                    </p>
+                    <div class="light">
+                        <p>
+                            <b> Protein </b>is one of the basic component of food and makes all life possible. <br> Protein and Amino acids are basically building blocks of all tissue in our body. <br>
+                            <b>All protein has 4 calories per gram.</b>
+                        </p>
+                    </div>
+                    <div class="light">
+                        <p>
+                            <b> Carbohydrates</b> are the main source of enrgy for muscles unlike fat and protein carbs are not essential means you could survive with them. But they are important too because they regulate protein and fat metabolism and
+                            even in growth and repair of tissue.
+                            <br> <b>All carbs has 4 calories per gram just like protein</b>
+                        </p>
+                    </div>
+                    <div class="light">
+                        <p>
+                            Dietary fats are essential for hormone production, vitamin absorbtion and brain function. You cannot live without them
+                        </p>
+                    </div>
+                    <div id="protein" class="dark">
+                        <div class="content-heading">
+                            <img src="images/protein.svg" alt="">
+                            <h2>Protein Explained</h2>
+                        </div>
+                        <p>
+                            <b>Protein</b> helps in building and repairing muscles fibres after exercise.
+                        </p>
+                        <h3>Protein also helps in</h3>
+                        <ul>
+                            <li>Producing anti-bodies for the immune system</li>
+                            <li>Manufacturing hromones and enzymes</li>
+                            <li>Aiding in the digestion and absorption to tissues</li>
+                            <li>Providing structure for muscles, tendons, ligaments, organs, bones, hair, skin and all other tissues.</li>
+                        </ul>
+                        <p>It is most important because all muscles are literally made out of it. <br> It also supplies the amino acids needed to reduce muscle break down</p>
+                        <p>In essense protein build new muscles and save existing muscles from being lost both functions are very important.</p>
+                        <div class="light">
+                            <h3>Q&rarr; What happens when you consume protein?</h3>
+                            <p>A&rarr; 90% of the protein you eat is broken down into amino acids.</p>
+                            <p>
+                                &rarr; becomes part of the amino acid "pool" <br> that the body draws up when it needs to build or repair muscles or any other tissue.
+                            </p>
+                            <p>
+                                &rarr; Amino acids have no form of storage in the body like fats and carbs. So, it's important to have some protein every day.
+                            </p>
+                        </div>
+                        <div class="light">
+                            <h3>Amino Acids = building blocks of protein</h3>
+                            <p>necessary to support muscle growth</p>
+                            <div class="dark">
+                                <p>Amino acids are categorised as essential and non-essential</p>
+                                <p><b>Essential</b>&rarr; there are 8 of them &rarr; body cannot create them and they must be obtained from foods or supplements</p>
+                                <p><b>Non-essential</b>&rarr; body creates them</p>
+                            </div>
+                        </div>
+                        <div class="dark">
+                            <h3>How much Protein should you consume perday?</h3>
+                            <p>Ideal protein intake will depend on factors such as weight, muscle mass and fitness goals</p>
+                            <div class="light">
+                                <h4>Optimal Daily Protein Intake</h4>
+                                <div class="light">
+                                    <p>
+                                        &rAarr; <b>To live healthy life</b> &zigrarr; 0.5 - 0.7 gram per pound of body weight.
+                                        <br>
+                                        <br> E.g. &zigrarr; for 62 kg &rarr; 136 lbs * 0.6 = 81.9 gm
+                                    </p>
+                                </div>
+                                <div class="light">
+                                    <p>
+                                        &rAarr; <b>To build muscle</b> &zigrarr; 0.8 - 1 gram per pound of body weight.
+                                        <br>
+                                        <br> E.g. &zigrarr; for 62 kg &rarr; 136 lbs * 0.9 = 122 gm
+                                    </p>
+                                </div>
+                                <div class="light">
+                                    <p>
+                                        &rAarr; <b>To lose fat and maintain muscles</b> &zigrarr; 0.8 - 1 gram per pound of body weight.
+                                        <br>
+                                        <br> E.g. &zigrarr; for 62 kg &rarr; 136 lbs * 0.9 = 122 gm <br> because when losing weight your primary goal is always to maximize fat loss and preserve lean muscle mass.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fat" class="dark">
+                        <div class="content-heading">
+                            <h2>Fats Explained</h2>
+                            <img src="images/trans-fat.svg" alt="">
+                        </div>
+                        <p>Your body needs fatty acids to survive and cannot produce them from other foods.</p>
+                        <p>Fat is needed to regulate hormone production, keep your skin healthy, and to absorb vitamins A, D, E and K(fat soluble vitamins). <br> Fat cells insulate your body and help to keep you warm</p>
+                        <p><b>1 gram of fat &rarr; 9 calories ( twice the number of protein and carbs)</b></p>
+                        <div class="light">
+                            <h3>Two main type of fat &zigrarr; Saturated and Unsaturated fats.</h3>
+                            <div class="light">
+                                <p><b>Sautrated fats</b> (eg butter, cheese, whole milk) were long believed to raise LDL cholesterol level, however recent studies suggest it's a lot less problematic. <br> Cholesterol is a soft waxy substance that can cause
+                                    clogged or blocked arteries. Therefor a high LDL cholesterol can theoratically put you at rist for heart attack stroke and other major health problems. Nowadays the effect of saturated fats and LDL cholesterol seems
+                                    to be al lot less problematic than previously and the debate whether saturated fat directly increses your risk of heart problems is still unsettled. <br> But it's probably best to limit foods that are high in saturated
+                                    fats. <br> Foods that contains a lot of saturated fat are animal product such as butter cheese, whole milk, ice cream and fatty meals. Some vegetable oil such as coconut contains saturated fats. Saturated fats are solid
+                                    at room temp.</p>
+                            </div>
+                            <div class="light">
+                                <p><b>Unsaturated fats</b> lowers LDL cholesterol level (include olive, sunflower and soy oil).</p>
+                                <p><b>Trans fat:</b> from when vegetable oil is infused with hydrogen &rarr; avoid</p>
+                            </div>
+                        </div>
+                        <div class="light">
+                            <h3>How much fat should you consume?</h3>
+                            <p>In order to maintain your general helth fitness you need 0.3 grams per pound of fat free mass per day.</p>
+                            <p>&rarr; roughly 15 to 20% of daily calories</p>
+                            <p>Limit saturated fat intake, avoid artificial trans fat and favor mono unsaturated and poly Unsaturated fats.</p>
+                        </div>
+                        <div class="light">
+                            <h3>When to increase fat intake (above 15-20%)</h3>
+                            <p>That is when you bulking. <br> Bulking is the term used for going into calorie surplus to ensure optimal muscle growth.</p>
+                            <p>When all carbohydrate fat and protein needs are already met, but your daily calories are not yet filled you have choice to make &rarr; more protein, fat or carbs?</p>
+                            <div class="light">
+
+                                <p>In many case, adding fat is good option because of:
+                                    <br>&rarr; Taste
+                                    <br>&rarr; Health effect &zigrarr; mono unsaturated are some of the healthiest calories you can take in. Contains in nuts like peanut and almonds.
+                                    <br>&rarr; Calorie density &zigrarr; fats tends to pack together tightly and the apparent density goes up even further. <br> A table spoon of olive oil has more calories then entire banana. <br>If you're already full
+                                    but still in more calories to meet your daily intake extra fat is going to be easily consumed.
+                                    <br>&rarr; Cost effectiveness
+                                </p>
+                            </div>
+                            <p>
+                                Now in some cases it can also make sense to consume additional carbs specially when exercising very intensively. <br> However, then you need to make sure that these extra carbs come from quality sources such as rice or
+                                potatoes and not from junk food. <br>Never consume too much simple carbs as they will keep your insulin levels up and can lead to pre-diabetes which is harmful to your muscle gains and fat losses and your general health.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div id="carbs" class="dark">
+                        <div class="content-heading">
+                            <img src="images/carbohydrates.svg" alt="">
+                            <h2>Carbohydrate Explained</h2>
+                        </div>
+                        <p>Carbs are found in foods including fruits vegetables, grains, potatoes, pastries and candy. <br> They are considered as body's preferred energy source.</p>
+                        <p class="imp">
+                            &rarr; sugar molecule that are a union of carbon, hydrogen and oxygen (CHO)
+                            <br>Your body breaks carbs down into glucose, which is transported throughout the body to provide energy.
+                            <br>
+                            <br> Any glucose not used in stored in your liver and muscles as glycogen or as fat.
+                        </p>
+                        <div class="dark">
+                            <h3>Benefits of Carbs</h3>
+                            <p class="imp">
+                                During high intensity activities your body uses glycogen and converts it back to glucose for new fuel.
+                            </p>
+                            <p>If glycogen levels are low then hard workout become increasingly difficult to complete and your performanece will suffer.</p>
+                            <br>
+                            <br>
+                            <p class="imp">Additional Benefits</p>
+                            <p>
+                                &rarr; <span class="imp"> Supplying the Nervous system with its fuel.</span> <br>Well maintained blood glucose level will benefit the nervous system means
+                                <br> - better concentration
+                                <br> - Better muscle recruitment
+                                <br> - more fatigue resistence
+                                <br> - and workout motivation
+                                <br>
+                                <br> Fatigue of long duration training is due to tired nervous system and not due to sore muscles.
+                                <br>
+                                <br> &rarr; <span class="imp"> Refueling Glycogen stores. </span><br> low levels of gycogen by themselves have been shown to down regulate muscle growth.
+                                <br>
+                                <br> &rarr; <span class="imp">Secreting Insulin</span>
+                                <br>The more carbs you eat the more insulin is secreted when insulin is released to the blood it binds to target receptors on the muscle cell surface and increases muscle growth because of powerfull anabolic effect of insulin
+                                carbohydrate consumption ins anabolic to muscle tissue that means it helps to grow it.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h3>Types of Carbs</h3>
+                            <p>Good, bad, healthy, unhealthy, simple, comples, ... so much</p>
+                            <p class="imp">
+                                But remember carbohydrates are just sugar molecules all of which are broken down by the body into glucose. <br> Glucose is a single sugar molecule that is used as fuel by the cells in your body form your brain to your muscles.
+                            </p>
+                            <br>
+                            <p class="imp">
+                                There are 3 type of carbohydrate that are defined by the number of sugar molecules they contain.
+                            </p>
+                            <p><span class="imp">1- Monosaccahride -</span> one sugar molecule <span>(simple)</span> <br> e.g. &zigrarr; glucose, galactose and fructose</p>
+                            <p><span class="imp">2- Disaccahride -</span> two sugar molecule <span>(simple)</span> <br> e.g. &zigrarr; sucrose, table sugar, lactose, milk, maltose and beer</p>
+                            <p><span class="imp">1- Polysaccahride -</span> several sugar molecule <span>(complex)</span> <br> e.g. &zigrarr; starchy foods like pasta, potatoes</p>
+                        </div>
+                        <p>
+                            mono and di easily break down because they are simple carb but poly can take longer for the body to break down.
+                        </p>
+                        <p>Carbs that caouse your blood sugar level rise rapidly are considered bad where as those that are absorbed slowly and have little effect on blood sugar levels are considered good or healthy carbs.</p>
+                        <p>Combining carb with different food like dietary fat, slows down the pace of digestion and therefore lowers its impact on blood sugar levels.</p>
+                        <p class="imp">
+                            Simple rule: If you are eating whole, unprocessed carbs, considere them as good, but if the carb has been proceesssed it's a 'bad' carbs. <br> such as soda, white bread.
+                        </p>
+                        <div class="light">
+                            <h3>Do bad carbs make you Fat?</h3>
+                            <p>Carbs themselves do not make you fat.</p>
+                            <p>However, many processed foods are high in sugar and other types of simple carbs <br> But to get fat you always need a calorie surplus which you could reach with high protein or high fat diet. <br> As long as you include quality
+                                carbs in your diet you will be fine.</p>
+                        </div>
+                        <div class="light">
+                            <h3>How many carbs should you eat per day?</h3>
+                            <p class="imp">Ideal Carb Intake</p>
+                            <p>In theory there is no true minimun from the perspective of general health. <br> However, for athletes, chronically dipping too low in carbohydrate intake will lead to poor workout performance, poor muscle growth and more fatigue.
+                                <br> <br> Optimal intake depends on a variety of factor but even without knowing your exact measurements we can still narrow it on a range using only your body weight and training intensity.</p>
+                            <p class="imp">
+                                LIGHT (30 min workout) &zigrarr; 1 - 1.25g per lb <br> MODERATE (max 60 min) &zigrarr; 1.25 - 1.5g per lb <br> HARD (intense) &zigrarr; 1.5 - 1.75g per lb <br>
+                            </p>
+                        </div>
+                        <div class="light">
+                            <h3>Can you eat too many carbs?</h3>
+                            <p class="imp">For most active people and atheletes, there does not seem to be such a thing as an excessive intake of carbs, as long as minimal protein and fat intake are met.</p>
+                            <p>Studies done with endurance runners and vegetarians, that diet is very high in carbs can be healthy in the long term. <br> What assumes though is that you get your carbs form quality sources such as rice, quinoa oats and potatoes.
+                                <br> These all are complex carbs that do not lead to a sudden spike in insulin levels which is the case for simpole carbs like candy and sugar.</p>
+                            <p class="imp">If you exercise alot and need the extra energy than you can consume large amounts of carbs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="mealtiming" class="inside-content">
+                    <div class="content-heading">
+                        <h2>Meal Timing</h2>
+                        <img src="images/meal.svg" alt="">
+                    </div>
+                    <p class="imp">
+                        Less important than calories intake but certain food have right timing to eat them.
+                    </p>
+                    <div id="proteint" class="dark">
+                        <div class="content-heading">
+                            <h3>Protein Timing</h3>
+                            <img src="images/meat.svg" alt="">
+                        </div>
+                        <p>
+                            Bodybuilder religiously plan their meal and always had protein shake or bar with them to avoid going into catabolic state where your body breaks down muscle tissue. <span class="imp">But we don't have to do that.</span>
+                            <br>
+                            <br> Our one goal is to create a continual supply of amino acids form digestive protein into the blood stream to avoid muscle breakdown.
+                            <br>
+                            <span class="imp">The one variable that we have to look at is protein digestion &rarr; how fast or slow the consumed food is broken down into amino acids.</span>
+                            <br> how long this process takes depends on three factors: <span class="imp">Protein Type, Meal size and Fat and fiber content.</span>
+                        </p>
+                        <div class="light">
+                            <h4>Protein Type</h4>
+                            <p><span class="imp">Fasted digesting protein:</span> whey (under 1 hour)</p>
+                            <p><span class="imp"></span>Medium:</span> whole food proteins (several hours). e.g. chicken breast, lean beef and fish.</p>
+                            <p><span class="imp">Slowest:</span> dairy products (upto 7 hours)</p>
+                        </div>
+                        <div class="light">
+                            <h4>Meal Size</h4>
+                            <p>
+                                The simple addition of more food can prolong the digestion time of any protein sources. <br> Even more protein itself can delay absorption times.
+                            </p>
+
+                        </div>
+                        <div class="light">
+                            <h4>Fat and Fiber Content</h4>
+                            <p>
+                                Both fat and fiber will prolong the digestion of proteins to considerable extent. <br> A large, fatty steak can take as long to digest as a casein source.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>Meal Frequency</h4>
+                            <p>Your goal is to maintain a continual supply of amino aicds to the muscles. <br>There are different ways of achieving this. <br> <br> You can eat 6 smaller meals but you can also just eat 3 meals as long as they are large enough
+                                to cover both your daily protein needs and are slowly digested.</p>
+                        </div>
+                        <div class="dark">
+                            <h4>Protein timing and workouts</h4>
+                            <p>As long as you meet your daily calorie and nutritional requirements through your normal diet you don't have to drink a protein shake right before or after your workout. <br> <br> Instead get your pre and post meals right.</p>
+                        </div>
+                    </div>
+                    <div id="carbt" class="dark">
+                        <div class="content-heading">
+                            <img src="images/bread.svg" alt="">
+                            <h3>Carbohydrate Timing</h3>
+                        </div>
+                        <div class="light">
+                            <h4>Meal Frequency</h4>
+                            <p>With carbs meal frequency is not generally an issue unless you want or need to consume a lot. <br> you can agian eat them in two to six meals throughout the day. <br> <br> What's more important is that you time your carbs according
+                                to your workout schedule.</p>
+                        </div>
+                        <div class="light">
+                            <h4>Carb timing and workouts</h4>
+                            <p>Eat some form of carbs before and after your workout. <br> Eating carbs before your workout will provide your muscles with additonal fuel for your training, which will indirectly affect your muscle growth. <br> Eating carbs
+                                after your workout will refill glycogen stores which have been depleted in your workout. <br>Also including a post-workout meal will quickly raise insulin levels and keeps them elevated for long period of time and as we
+                                know insuling has anti catabolic properties which means it decreases the rate of protein breakdown that occurs after exercise.</p>
+                        </div>
+                    </div>
+                    <div id="fatt" class="dark">
+                        <div class="content-heading">
+                            <img src="images/olive-oil.svg" alt="">
+                            <h3>Fat Timing</h3>
+                        </div>
+                        <p class="imp">
+                            Fat timing is very simple.
+                        </p>
+                        <p>
+                            The only time you should avoid fat is right before your workout, since fat slows down the digestion of both carbs and protein. <br> <br> Don't over complicate this though as long as you meet your recommended daily fat intake.
+                            <br>This is the least important thing to worry about.
+                        </p>
+                        <p>
+                            Fat intake right before you work will not only make you feel more tired. It also limits the availabiliy of energy in the form of carbs throughout your workout.
+                        </p>
+                    </div>
+                    <div id="premeal" class="dark">
+                        <div class="content-heading">
+                            <img src="images/clock.svg" alt="">
+                            <h3>Pre-workout meal</h3>
+                        </div>
+                        <p>It's main function if to fuel the workout itself and maximise your performance.</p>
+                        <p class="imp">
+                            In a scientific sense it's meant to do three things:
+                            <br>&rarr; Reduce muscle glycogen depletion.
+                            <br>&rarr; Reduce muscle protein breakdown.
+                            <br>&rarr; Reduce post workout cortisol levels.
+
+                        </p>
+                        <p>
+                            Now how you accomplish this. <br> Easy you eat carbs and protein before your workout.
+                            <br>What this means is that most important rule of your pre-workout meal is to consume a good amount of both carbs and protein before your workout.
+                        </p>
+                        <div class="light">
+                            <h4>Pre-workout Meal Guide Lines</h4>
+                            <p>Eat a balanced meal with 0.2 - 0.25 g/lbs of your target body weight (for both carbs and protein) upto one hour before your workout. <br> If your last meal lies more than two hour prior to your training, consume liquid or easily
+                                digested protein and carbs 30 minute before your workout. <br> This could be a protein shake with a banana the liquid will be more easily digested allowing your body to absorb nutrients faster. <br>
+                                <span class="imp">advice-</span> eat a normal meal of brown rice chicken and vegetables an hour before workout.
+                            </p>
+                        </div>
+                        <div class="light">
+                            <h4>Pre workout meal suggestions</h4>
+                            <p>Meals that you can eat up to 1 hour before your workout.</p>
+                            <p>&rarr; Oat meal with Whey Protein.</p>
+                            <p>&rarr; Large chicken sand which with whole grain bread.</p>
+                            <p>&rarr; 2 x or more hard-boiled eggs on an avacado toast.</p>
+                            <p>&rarr; whole grain pasta with some sort of protein.</p>
+                            <p><span class="imp"> Snacks 30 min or less before your workout:</span> Banana with whey protein shake, protein bar.</p>
+                        </div>
+                    </div>
+                    <div id="postmeal" class="dark">
+                        <div class="content-heading">
+                            <h3>Post-workout Meal</h3>
+                            <img src="images/clock.svg" alt="">
+                        </div>
+                        <p>
+                            Meant to supply your body with everything it will need to repair the muscle tissue. <br><span class="imp">specially, the goal is to accompish the following:</span>
+                            <br>&rarr; Replenish muscle glycogen that was depleted during your workout.
+                            <br>&rarr; Reduce muscle protein breakdown caused by exercise.
+                            <br>&rarr; Increase muscle protein synthesis.
+                            <br>&rarr; Reduce muscle soreness and fatigue.
+                            <br>&rarr; Enhance overall recovery.
+                            <br>&rarr; And reduce cortisol levels.
+                        </p>
+                        <div class="light">
+                            <h4>How can you achieve this?</h4>
+                            <p>By giving your body the same macro nutrients you did in the pre workout meal: Carbs and protein (around 0.2 - 0.25 g/lbs of your target body weight) <br> If you're really hungry you can increase the carbs. <br>Timing should
+                                be around 30-60 minutes after your workout. <br> Pre- and post-workout meals shouldn't be separated by more than 3-4 hours.</p>
+                        </div>
+                        <div class="dark">
+                            <h4>What about the Anabolic Window?</h4>
+                            <p>The idea of the anabolic window is that you have a specific window of time after a workout to eat food and if you do this muscle growth is accelerated if you don't however, you will miss out of this benefit of or even worse
+                                lose muscle. <br> <span class="imp">5 to 30min</span> but if you will eat within an hour after you workout you will be fine.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="foodcomp" class="inside-content">
+                    <div class="content-heading">
+                        <h2>Food Composition</h2>
+                        <img src="images/diet2.svg" alt="">
+                    </div>
+                    <p>This refers to the individual food that you eat and there given nutritions <br> <br> As long as you follow the guide lines of calorie consumption you will reach your goals. What this means is that you consume enough protein is lot
+                        more important than if this protein comes from egg or peice of meat. Our body can handle food from variety of sources.
+                    </p>
+                    <div class="dark">
+                        <div class="content-heading">
+                            <h3>Protein Compostion</h3>
+                            <img src="images/fried-egg.svg" alt="">
+                        </div>
+                        <p>This can be measured in number of ways.</p>
+                        <p><span class="imp">Most often are -</span>
+                            <br> <span class="imp">Bioavailability:</span> what percentage of the protein that you consume is actually absorbed into the bloodstream.
+                            <br>Another indicator considers how much of the protein is composed of essential amino acids which are those your body cannot make itself and how much of the protein is composed of non-essential amino aicds. <br>Obviously sources
+                            that are rich in essential amino aicds are of higher quality in this sense.
+                        </p>
+                        <p class="imp">
+                            Common foods ranked by their protein quality starting with most quality sources:
+                            <br>&zigrarr; Whey Protein Isolate
+                            <br>&zigrarr; Whey Protein Concentrate
+                            <br>&zigrarr; Egg sources(cooked not raw)
+                            <br>&zigrarr; Meats(beef, pork)
+                            <br>&zigrarr; Poultry(chicken, turkey)
+                            <br>&zigrarr; Fish and Seafood
+                            <br>&zigrarr; Soy Protein and Quinoa
+                            <br>&zigrarr; Combined Plant Sources(like beans and rice)
+                            <br>&zigrarr; Isolate Plant sources(whoe grain bread by itself, nuts by themselves)
+                        </p>
+                    </div>
+                    <div class="dark">
+                        <div class="content-heading">
+                            <h3>Carbohydrate Composition</h3>
+                            <img src="images/toast.svg" alt="">
+                        </div>
+                        <p>
+                            Just like protein composition, carbs composition can refers to several concepts. <br>The most common is the <span class="imp">glycemic index</span>
+                            <br>In its simplest form the glycemic index is a measure of both how fast food raises your blood glucose levels and how much it elevates insulin levels. <br> The measure is generally applied to carbohydrates and rank from 0
+                            to 100.
+                            <br> The faster a carb is adsorbed and the larger its effect on insulin the closer it will be to 100, slower absorbing and digesting will be closer to zero.
+                        </p>
+                        <div class="light">
+                            <p class="imp">
+                                Dextrose powder &zigrarr; 100
+                                <br>Corn flakes &zigrarr; 90
+                                <br>Baked potato &zigrarr; 85
+                                <br>Gatorade &zigrarr; 80
+                                <br>Wonder bread &zigrarr; 75
+                                <br>Wonder bagel &zigrarr; 70
+                                <br>Bananas &zigrarr; 65
+                                <br>Honey &zigrarr; 60
+                                <br>Whole grain bread &zigrarr; 55
+                                <br>Brown rice &zigrarr; 50
+                                <br>Peaches &zigrarr; 45
+                                <br>Whole grain spaghetti &zigrarr; 40
+                                <br>Carrots &zigrarr; 35
+                                <br>Skim milk &zigrarr; 30
+                                <br>Grape fruit &zigrarr; 25
+                                <br>Peanuts &zigrarr; 5
+                            </p>
+                        </div>
+                        <p>
+                            G.I. ranking are based on the Glyceminc effects of specific foods that are consumed isolated and fasted state. <br>That means unless you eat first thing in the morning or after long fast you'll never be consuming your carbs
+                            in a fasted state and even than a typical fitness meal plan always combines carbs with fat and protein. <br> If you consume carbs in a fasted state it still won't affect you to any meaningful degree unless you have a pre-existing
+                            health condition, the human body is very good at keeping your blood sugar levels and insulin levels within a fairly precise range. <br> This applies specially to people who regularly exercise.
+                            <br>
+                            <span class="imp">G.I. is not that important.</span> Instead of comparing fast carbs and slow carbs, here what you should focus on &rarr; Get the majority of your carbs intake from high fiber, minimally processed sources. This
+                            includes foods such as oatmeal, rie, potatoes, whole grain pasta, fruits and vegetables. Consuming your carbs as part of a complete meal with protein and healthy fats.
+                        </p>
+                    </div>
+                    <div class="dark">
+                        <div class="content-heading">
+                            <h3>Fat Composition</h3>
+                            <img src="images/trans-fat.svg" alt="">
+                        </div>
+                        <p>
+                            For muscle building or fat loss purposes fat composition is even less important than carb and protein composition. <br> But consuming certain kinds of fats and staying away from others will make a big difference in your overall
+                            health.
+                            <br> Fat can be split into two categories saturated and unsaturated but there are more.
+                        </p>
+                        <table class="fatcomp">
+                            <thead>
+                                <tr>
+                                    <th colspan="3">Fat Composition Recommendations</th>
+                                </tr>
+                                <tr>
+                                    <th>Fat type</th>
+                                    <th>Recommended Intake</th>
+                                    <th>Example food</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>&Star; Monosaturated</td>
+                                    <td>60%</td>
+                                    <td>Avacado, nuts and there butters, olive oil</td>
+                                </tr>
+                                <tr>
+                                    <td>&Star; Polyunsaturated</td>
+                                    <td>15%</td>
+                                    <td>Vegetable oils</td>
+
+                                </tr>
+                                <tr>
+                                    <td>&Star; Healthy Saturated</td>
+                                    <td>15%</td>
+                                    <td>Coconut/grass fed animal fats</td>
+                                </tr>
+                                <tr>
+                                    <td>Contentional Saturated</td>
+                                    <td>10%</td>
+                                    <td>Fats from conventionally farmed bacon, eggs, cheese, butters</td>
+                                </tr>
+                                <tr>
+                                    <td>Trans</td>
+                                    <td>0%</td>
+                                    <td>Store bought baked goods, most fast food</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="imp">&Star; these one are good to consume and other are unhealthy.</p>
+                    </div>
+                </div>
+                <div id="supplements" class="inside-content">
+                    <div class="content-heading">
+                        <h2>Supplements Explained</h2>
+                        <img src="images/protein-shake.svg" alt="">
+                    </div>
+                    <p class="imp">These aren't important at all</p>
+                    <p><span class="imp">Supplements</span> can never replace proper diet planning and nutrition but they can help you reach your fitness goals faster.</p>
+                    <p>Most supplements won't have any effect on muscle growth or fat loss</p>
+                    <div class="light">
+                        <h3>Protein Powder</h3>
+                        <p>
+                            Even though you don't have to use protein powder to reach your recommended daily intake, consuming enough protein every day can be tricky. <br> It most likely won't matter all that much which kind of protein you buy as long
+                            as you take it regularly.
+                        </p>
+                        <p class="imp">Optimal dosage: max 30% - 50% of your daily protein intake</p>
+                        <div class="dark">
+                            <h4>How to use protein powder?</h4>
+                            <h4>Is protein powder absolutely necessay to build muscle?</h4>
+                            <p>
+                                <span class="imp">No,</span>
+                                <br>even though your body requires more protein when you want to build muscle, this doesn't mean that you have to use protein powder or any other protein supplements
+                                <br> As long as you reach your recommended daily protein intake you will be fine and will see results.
+                                <br>However, consuming enough protein every day can be tricky, specially when you don't have time to prepare high protein meals all the time. That's is why most atheletes and body builders use protein powder in addition
+                                to a balanced diet. So, if you're crunched for time, a good protein powder can really make your life easier <span class="imp">not complete.</span>
+                                <br>
+                                <br>
+                                <span class="imp">Scientific studies help debunk myths that protein powder is causing kidney damage.</span>
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>What type of protein powder is best?</h4>
+                            <p>There are a lot of protein powders you can buy but the most common ones are powder based on whey, casein or egg.</p>
+                            <p>
+                                As long as you don't get all your daily protein from supplements you won't notice the tiny difference among the different forms of protein. <br>
+                                <span class="imp">&Star;Essential amino acids should be provided that's it&Star;</span>
+                            </p>
+                            <br>
+                            <br>
+                            <p>
+                                There are two forms of protein that are not recommended to beginners. <br>
+                                <span class="imp">1- Beef protein powder&rarr;</span> It's best source of protein but the fact that most of the time you aren't getting the real thing. Many beef protein powder is made from what is left after you take away
+                                the quality meat. This includes the ligaments, joints and even ears.
+                                <br>
+                                <span class="imp">2- Soy protein&rarr;</span> It can negatively effect your testosterone levels due to it being rich in plant based estrogen.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>When you should take protein powder?</h4>
+                            <p>
+                                Protein timing isn't nearly as important as people make it out to be. <br> Some studies show a positive effect of post workout protein synsthesis, while others find no such relation.
+                                <br>Overall it seems that as long as you meet your daily calorie and nutritional requirements through your normal diet it doesn't matter when you drink you protein shake.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>How much protein powder should you take?</h4>
+                            <p>This depends on how much total protein you need to consume per day.
+                                <br>The majority of your diet should always be based on whole foods. <br> <span class="imp">Make protein powder a supplement and not a substitute.</span>
+                                <br>Depending on your lifestyle you should get around a third to half (max) of your protein from protein shakes.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>What is the best liquid to mix protein powder with?</h4>
+                            <p>Water is ideal for any calorie restricted weight loss deit. <br> Milk will provide you with some additional protein but also leads to a higher calorie count. <br> other alternatives include soy or almond milk.</p>
+                        </div>
+                    </div>
+                    <div class="light">
+                        <h3>Creatine</h3>
+                        <p>Creatine is an organic acid that helps supply the muscle cells with energy for muscle cells during high intensity, short duration exercise.</p>
+                        <p class="imp">Optimal dosage: 3-5 grams per day.</p>
+                        <div class="dark">
+                            <h4>Misconception about creatine</h4>
+                            <p>- Creatine won't harm your kidneys unless you have an already existing condition.</p>
+                            <p>- It also doesn't build muscle by itself, but it will increase your strength level by enabling you to lift heavy weight cratine will indirectly help you build more muscle but you still have to put in some work. <br>
+
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>Benefits of creatine</h4>
+                            <p>
+                                Creatine is an organic acid that helps supply the muscle cells with energy during high-intensity, short-duration exercise. <br> Even though it is a non essential nutrient, because our body can produce creatine naturally,
+                                supplementation makes sense as it will further improve performance.
+                                <br> Creatine helps produce ATP more quickly which is the primary energy molecule used during weight training.
+                                <br> Faster ATP availability translate to more strength which in turn means more lean muscle gains over time. Along with increased strength creatine will cause more water retention in the muscle which makes them appear
+                                bigger and fuller.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>Which form of creatine should you use?</h4>
+                            <p>Creatine monohydrate is the most effective form of creatine while variations like <i>Kre Alkalyn (=buffered creatine)</i> or <i> creatine ethyl ester</i> are ofter sold for more than double the normal price, scientific studies
+                                showed no additional benefits.</p>
+                            <p>
+                                To make sure you are getting 100% monohydrate, look for the <span class="imp">Creapure trademark</span>
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>How much creatine should i take?</h4>
+                            <p>
+                                <span class="imp"> 3-5 grams per day (about a teaspoon)</span>
+                                <br>This is enough to saturate the muscle within 2-4 week and enough for maintenace afterward.
+                                <br>Taking in more won't lead to better results as you will pee out the excess creatine.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>With what liquid should I mix creatine?</h4>
+                            <p>Whatever drink you prefer. <br> High sugar drinks don't lead to an increase in creatine uptake.</p>
+                        </div>
+                        <div class="dark">
+                            <h4>Do I need a "loading Phase"?</h4>
+                            <p>
+                                No
+                                <br>A "loading phase" involves taking 20 grams perday for 5-7 days before switching to recommended dose of 3-5 grams perday.
+                                <br>The higher initial dose will lead to a faster saturation of the muscle cells, but only by a few days and the normal dose will also get you there.
+                            </p>
+                        </div>
+                        <div class="dark">
+                            <h4>Do I have to cycle creatine?</h4>
+                            <p>
+                                No
+                                <br>There are no studies that linked continued creatine use with risks or a decrease in the body's natural production of creatine.
+                                <br>If you want to stop taking creatine, your body won't undergo any withdrawal symptoms (besides the decrease in strength.)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="light">
+                        <h3>Fish-oil</h3>
+                        <p>
+                            Boosts your mood, helpls maintain helthy cholesterol levels and strong bones and ligaments. <br> As most of us aren't getting enough fish which is why the average person should go for the second best option which is supplementing
+                            with fish oil capsules. <br> The Omega 3 fatty acids contained in fish oil are essential fatty acids that reduce the risk of heart attack and lower blood pressure.
+                        </p>
+                        <p class="imp">Optimal dosage: 1000-3000 mg of combined EPA/DHA per day</p>
+                    </div>
+                    <div class="dark">
+                        <h3>Pre-workout Supplements</h3>
+                        <p>These are difficult supplements because even though they work but most of them are extremely over priced.</p>
+                        <p>
+                            They want to make you believe that there effects are due to newest discovery in nutrition research or some king of increase in testosterone but in reality and in 99% of the cases the boost comes from caffeine.
+                            <br>The heavy lifting is almost always done by caffeine. Virtually all pre-workout supplements contains around 100 to 300 milligrams of caffeine in each serving.
+                            <br>This by itself is nothing bad ofcourse as long as you don't overdose. Caffiene is a safe supplement but you don't need to pay high price for a supplement to get it.
+                            <br> This is why most of the mainstream pre-workout products are a waste of money.
+                            <br>You will save a lot of money if you simply buy caffeine and may be L-Tyrosine separately and take both 30 to 45 minutes before your workout <br> (100-200 mg caffeine and 1000 -3000 mg of L-Tyrosine).
+                        </p>
+                    </div>
+                    <div class="dark">
+                        <h3>Fat Burner Supplements</h3>
+                        <p>
+                            What you have to understand is that fat burners themselves don't burn fat. <br> To sell you products most supplements company talk about all king of fancy terms like increase fat oxidation, enzymes related to fat storage and
+                            ofcourse hormones. <br> most fat burners will slightly increase your metabolism through a few key ingredients:
+                            <br> <span class="imp">Caffiene - </span> it helps you by slightly increasing your metabolism while also giving you more strength during workout.
+                            <br> <span class="imp">Synephrine - </span> chemical compound found in certain types of citrus fruits particularly the bitter ones. This also increase your metabolism.
+                            <br> <span class="imp">Green tea extract - </span> it accelerate exercises induced fat loss.
+                            <br> <span class="imp">Naringenin & Hesperidin - </span> improve blood flow (orange and skin of tomatoes)
+                            <br> For begginers it's lot more important to understand how to come up with the right diet and stick to it than how to choose the right fat burner.
+                        </p>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
