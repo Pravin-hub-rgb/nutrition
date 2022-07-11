@@ -8,55 +8,56 @@
     <title>Nutrition</title>
     <link rel="icon" href="images/pyramid.svg" type="image/icon type">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div onclick="openNav()" class="dmenu">
-            <div></div>
-            <div></div>
-            <div></div>
+    <div class="btn">
+        <span class="fas fa-bars"></span>
+    </div>
+    <nav class="sidebar">
+        <div class="text">
+            Side Menu
         </div>
+        <ul>
+            <li class="active"><a href="#">Dashboard</a></li>
+            <li>
+                <a href="#" class="feat-btn">Features
+               <span class="fas fa-caret-down first"></span>
+               </a>
+                <ul class="feat-show">
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Elements</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="serv-btn">Services
+               <span class="fas fa-caret-down second"></span>
+               </a>
+                <ul class="serv-show">
+                    <li><a href="#">App Design</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Shortcuts</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
     </nav>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="close closebtn" onclick="closeNav()">&times;</a>
-        <h2>Read About</h2>
-        <div class="group">
-            <a href="component/meal_planning_explained.html">Meal Planning Explained</a>
-            <a href="component/setting_up_your_diet.html">Setting Up Your Diet</a>
-            <a href="component/diet_weightloss_weightgain.html">Adjusting your diet for muscle gain & fat loss</a>
-            <a href="component/healthy_dieting.html">Healthy dieting</a>
-            <a href="component/common_diet.html">Common dieting trends</a>
-            <a href="component/micronutrients.html">Micronutrients</a>
+    <div class="content">
+        <div class="main-back">
+            <h1 class="main-text">Nutrition</h1>
+            <img class="food-pyramid" src="images/pyramid.svg" alt="Food Pyramid">
+        </div>
+        <div class="foot">
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </div>
     </div>
-    <section class="back">
-        <div id="left">
-            <h2>Read About</h2>
-            <div class="group">
-                <a href="component/meal_planning_explained.html">Meal Planning Explained</a>
-                <a href="component/setting_up_your_diet.html">Setting Up Your Diet</a>
-                <a href="component/diet_weightloss_weightgain.html">Adjusting your diet for muscle gain & fat loss</a>
-                <a href="component/healthy_dieting.html">Healthy dieting</a>
-                <a href="component/common_diet.html">Common dieting trends</a>
-                <a href="component/micronutrients.html">Micronutrients</a>
-            </div>
-        </div>
-        <div id="right">
-            <div class="main-back">
-                <h1 class="main-text">Nutrition</h1>
-                <img class="food-pyramid" src="images/pyramid.svg" alt="Food Pyramid">
-            </div>
-            <div class="foot">
-                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            </div>
-        </div>
-
-    </section>
-
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
